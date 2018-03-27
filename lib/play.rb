@@ -36,3 +36,11 @@ def turn(board)
 end
 
 # Define your play method below
+def play(spot)
+  spot = 0 
+ until spot == 9 
+ puts "Please enter 1-9:"
+ spot += 1 
+ end
+end
+    turn(board)
