@@ -41,13 +41,11 @@ def play(spot)
   loop do
     spot += 1 
     puts "Please enter 1-9:"
-    if spot <= 9 
+    if spot >= 9
+      break
+    end  
+  end 
+end   
       
   
   
- until spot == 9 
- puts "Please enter 1-9:"
- spot += 1 
- end
-end
-    #turn(board)
