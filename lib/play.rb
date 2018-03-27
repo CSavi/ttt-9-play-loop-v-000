@@ -43,8 +43,8 @@ def play(spot)
  
  
  
- puts "Please enter 1-9:"
- spot += 1 
+ #puts "Please enter 1-9:"
+ #spot += 1 
  end
 end
     #turn(board)
