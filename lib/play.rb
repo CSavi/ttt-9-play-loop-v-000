@@ -36,11 +36,11 @@ def turn(board)
 end
 
 # Define your play method below
-def play(spot)
+def play(board)
   spot = 0 
   loop do
     spot += 1 
-    turn(spot)
+    turn(board)
     if spot >= 9
       break
     end  
