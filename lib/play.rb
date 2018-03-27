@@ -43,4 +43,4 @@ def play(spot)
  spot += 1 
  end
 end
-    turn(board)
+    #turn(board)
