@@ -40,6 +40,8 @@ def play(spot)
   spot = 0 
   loop do
     spot += 1 
+    puts "Please enter 1-9:"
+    
   
   
  until spot == 9 
